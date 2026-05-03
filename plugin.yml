@@ -1,0 +1,19 @@
+name: AnimeClasses
+version: 1.0.0
+main: com.animeclasses.AnimeClassesPlugin
+api-version: '1.21'
+description: 12 Anime/Pop-Culture classes for Paper 1.21.1
+authors: [AnimeClasses]
+commands:
+  animeclass:
+    description: Open the class selection GUI
+    aliases: [class, selectclass]
+    usage: /animeclass
+  resetclass:
+    description: Reset your class (admin)
+    usage: /resetclass [player]
+    permission: animeclasses.admin
+permissions:
+  animeclasses.admin:
+    description: Admin commands
+    default: op
